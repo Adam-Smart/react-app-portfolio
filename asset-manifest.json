@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/react-app-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react-app-portfolio/static/js/main.85771ec9.js",
+    "main.css": "/react-app-portfolio/static/css/main.666dbd63.css",
+    "main.js": "/react-app-portfolio/static/js/main.cb6dcb6b.js",
     "static/js/787.486a7e1f.chunk.js": "/react-app-portfolio/static/js/787.486a7e1f.chunk.js",
+    "static/media/work-week-1.jpg": "/react-app-portfolio/static/media/work-week-1.7fe62aa0b88b49d0cd5f.jpg",
     "static/media/logo.svg": "/react-app-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-app-portfolio/index.html",
-    "main.073c9b0a.css.map": "/react-app-portfolio/static/css/main.073c9b0a.css.map",
-    "main.85771ec9.js.map": "/react-app-portfolio/static/js/main.85771ec9.js.map",
+    "main.666dbd63.css.map": "/react-app-portfolio/static/css/main.666dbd63.css.map",
+    "main.cb6dcb6b.js.map": "/react-app-portfolio/static/js/main.cb6dcb6b.js.map",
     "787.486a7e1f.chunk.js.map": "/react-app-portfolio/static/js/787.486a7e1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.85771ec9.js"
+    "static/css/main.666dbd63.css",
+    "static/js/main.cb6dcb6b.js"
   ]
 }
