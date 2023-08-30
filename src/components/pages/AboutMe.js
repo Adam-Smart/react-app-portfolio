@@ -1,4 +1,7 @@
 import React from 'react';
+import Me from "../assets/PortfolioPic.jpg"
+
+
 
 export default function AboutMe() {
   return (
@@ -16,6 +19,11 @@ export default function AboutMe() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
+      <section>
+        <h2>Adam Smart</h2>
+        <a href="https://adam-smart.github.io/week-1-code-refactor-challenge/"><img src={Me}></img></a>
+      </section>
     </div>
+    
   );
 }
