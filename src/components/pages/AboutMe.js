@@ -21,7 +21,7 @@ export default function AboutMe() {
       </p>
       <section>
         <h2>Adam Smart</h2>
-        <a href="https://adam-smart.github.io/week-1-code-refactor-challenge/"><img src={Me}></img></a>
+        <a href=""><img src={Me}></img></a>
       </section>
     </div>
     
