@@ -5,27 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.profile{
+  border-radius: 100%;
+  width: 300px;
+  border-radius: 50%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 300px;
+}
+img.profile{
+  border: white 10px solid;
+}
+.portfolio{
+  background-color: white;
+  border: black 5px solid;
+  margin: auto;
+  margin-bottom: 20px;
 
+}
 img{
   width: 750px;
   height:auto;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   display: flex;
 }
 section{
- background-color: rgb(0, 195, 255);
  max-width: fit-content;
  max-height: fit-content;
  margin: 10px 20px;
- border: 5px;
- border-color: black;
- border-style: solid;
 }
+div{
+  background-color: #5E34C1;
+  min-height: 100vh;
+
+}
+.nav{
+  background: linear-gradient(312deg, rgba(153,0,228,0.7231267507002801) 0%, rgba(92,71,214,0.7567401960784313) 52%, rgba(0,245,255,0.6811099439775911) 100%);
+}
+

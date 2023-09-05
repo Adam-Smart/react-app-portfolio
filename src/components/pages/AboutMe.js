@@ -7,6 +7,9 @@ export default function AboutMe() {
   return (
     <div>
       <h1>About Me Page</h1>
+      <section className='profile'>
+        <a><img className = "profile" src={Me}></img></a>
+      </section>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -19,10 +22,7 @@ export default function AboutMe() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
-      <section>
-        <h2>Adam Smart</h2>
-        <a href=""><img src={Me}></img></a>
-      </section>
+      
     </div>
     
   );

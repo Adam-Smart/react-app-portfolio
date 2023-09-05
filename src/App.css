@@ -25,6 +25,7 @@
 background: linear-gradient(312deg, rgba(153,0,228,0.7231267507002801) 0%, rgba(92,71,214,0.7567401960784313) 52%, rgba(0,245,255,0.6811099439775911) 100%);
 }
 
+
 .App-link {
   color: #61dafb;
 }
@@ -37,6 +38,15 @@ background: linear-gradient(312deg, rgba(153,0,228,0.7231267507002801) 0%, rgba(
     transform: rotate(360deg);
   }
 }
-.nav-link{
-  background-color: black;
+
+footer{
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(312deg, rgba(153,0,228,0.7231267507002801) 0%, rgba(92,71,214,0.7567401960784313) 52%, rgba(0,245,255,0.6811099439775911) 100%);
+}
+a.nav-link{
+  color: black;
+  background-color: aliceblue;
+  margin-left: 2px;
 }

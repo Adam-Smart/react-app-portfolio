@@ -20,32 +20,32 @@ export default function Portfolio() {
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
       
-      <section>
+      <section className='portfolio'>
         <h2>Horiseon</h2>
         <a href="https://adam-smart.github.io/week-1-code-refactor-challenge/"><img src={week1}></img></a>
       </section>
       
-      <section>
+      <section className='portfolio'>
         <h2>Chapter Chatter</h2>
         <a href="https://chapter-chatter-project-032e4d6a934f.herokuapp.com/"><img src={ChapterChatter}></img></a>
       </section>
 
-      <section>
+      <section className='portfolio'>
         <h2>Note-Taker</h2>
         <a href="https://adams-note-taker-4e67211b2e7f.herokuapp.com"><img src={Note}></img></a>
       </section>
 
-      <section>
+      <section className='portfolio'>
         <h2>Weather Dashboard</h2>
         <a href="https://adam-smart.github.io/week-6-server-side-API-weather-dashboard/"><img src={Weather}></img></a>
       </section>
 
-      <section>
+      <section className='portfolio'>
         <h2>J.A.T.E</h2>
         <a href="https://adams-jate-text-editor-e48edddb6914.herokuapp.com/"><img src={Jate}></img></a>
       </section>
 
-      <section>
+      <section className='portfolio'>
         <h2>Work day Scheduler</h2>
         <a href="https://adam-smart.github.io/week-5-work-day-scheduler/"><img src={Scheduler}></img></a>
       </section>
