@@ -5,6 +5,13 @@ export default function Resume() {
     <div style ={{paddingBottom:"30%"}}>
       <h1>Resume Page</h1>
       <a href="">Resume</a>
+      <ul>
+        <li>Javascript</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+      </ul>
     </div>
   );
 }

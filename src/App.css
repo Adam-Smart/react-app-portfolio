@@ -38,3 +38,6 @@ a.nav-link{
   background-color: orange;
   margin-left: 2px;
 }
+li{
+  list-style-type: none;
+}
