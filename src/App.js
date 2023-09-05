@@ -2,6 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
+
+function App() {
+    return (
+      <div className="App">
+        <header className="App-header"></header>
+        <PortfolioContainer />
+      </div>
+    );
+  }
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -22,6 +32,6 @@ import PortfolioContainer from "./components/PortfolioContainer";
 //     </div>
 //   );
 // }
-const App = () => <PortfolioContainer />;
+// const App = () => <PortfolioContainer />;
 
 export default App;
