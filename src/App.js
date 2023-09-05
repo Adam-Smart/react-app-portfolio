@@ -8,7 +8,12 @@ function App() {
       <div className="App">
         <header className="App-header">Adam Smart's Portfolio</header>
         <PortfolioContainer />
-        <footer>This is the footer</footer>
+        <footer>
+          <p><a href ="https://github.com/Adam-Smart">Github</a></p>
+          <p><a href="https://www.linkedin.com/in/adam-smart-4ab57025a/">LinkedIn</a></p>
+          <a href="https://twitter.com/Adam_Smart_98">X</a>
+
+        </footer>
       </div>
     );
   }

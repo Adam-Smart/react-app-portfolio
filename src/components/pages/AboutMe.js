@@ -11,16 +11,10 @@ export default function AboutMe() {
         <a><img className = "profile" src={Me}></img></a>
       </section>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+      Hello my name is Adam Smart. I am 24 years old I am currently learning how to code but have preiviously studied business studies, media studies, IT, and applied science in sixthform. 
+      For the past six years i have been working ASDA where ive learned many new skills and have had to adapt to changes that they have made by them improving there inventory management.
+      I have a few different hobbies, one of them being gaming. I enjoy many differnt game genres but the main i play are FPS and Simulators.
+      Another hobby of mine is snowboarding. I started snowboarding about 7 years ago and love going to the mountains.
       </p>
       
     </div>

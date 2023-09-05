@@ -5,37 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 .profile{
   border-radius: 100%;
-  width: 300px;
+  width: 500px;
   border-radius: 50%;
   margin: auto;
+  margin-bottom: 25px;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  height: 300px;
+  height: auto;
 }
 img.profile{
   border: white 10px solid;
 }
 .portfolio{
-  background-color: white;
+  background-color: rgb(0, 174, 255);
   border: black 5px solid;
   margin: auto;
   margin-bottom: 20px;
-
+  color: black;
 }
+
 img{
-  width: 750px;
+  width: 1000px;
   height:auto;
   flex-wrap: wrap;
   justify-content: center;
@@ -49,9 +49,9 @@ section{
 div{
   background-color: #5E34C1;
   min-height: 100vh;
-
+  color : #fff;
+  font-size: 25px;
 }
 .nav{
   background: linear-gradient(312deg, rgba(153,0,228,0.7231267507002801) 0%, rgba(92,71,214,0.7567401960784313) 52%, rgba(0,245,255,0.6811099439775911) 100%);
 }
-
