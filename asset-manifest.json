@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/react-app-portfolio/static/css/main.666dbd63.css",
-    "main.js": "/react-app-portfolio/static/js/main.cb6dcb6b.js",
+    "main.css": "/react-app-portfolio/static/css/main.f2010cd1.css",
+    "main.js": "/react-app-portfolio/static/js/main.fb0126f8.js",
     "static/js/787.486a7e1f.chunk.js": "/react-app-portfolio/static/js/787.486a7e1f.chunk.js",
-    "static/media/work-week-1.jpg": "/react-app-portfolio/static/media/work-week-1.7fe62aa0b88b49d0cd5f.jpg",
+    "static/media/ChapterChatter.jpg": "/react-app-portfolio/static/media/ChapterChatter.61900d2e71440540ca1b.jpg",
+    "static/media/week1.jpg": "/react-app-portfolio/static/media/week1.7fe62aa0b88b49d0cd5f.jpg",
+    "static/media/PortfolioPic.jpg": "/react-app-portfolio/static/media/PortfolioPic.baf4e44a8751ff28ba02.jpg",
+    "static/media/WeatherDash.jpg": "/react-app-portfolio/static/media/WeatherDash.f0319b23232f99d7e237.jpg",
+    "static/media/Scheduler.jpg": "/react-app-portfolio/static/media/Scheduler.7c955535617618092ea7.jpg",
+    "static/media/Note-Taker.jpg": "/react-app-portfolio/static/media/Note-Taker.de3b742f2a65b367a0df.jpg",
+    "static/media/Jate.jpg": "/react-app-portfolio/static/media/Jate.e1c0563cc16f9e90208e.jpg",
     "static/media/logo.svg": "/react-app-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-app-portfolio/index.html",
-    "main.666dbd63.css.map": "/react-app-portfolio/static/css/main.666dbd63.css.map",
-    "main.cb6dcb6b.js.map": "/react-app-portfolio/static/js/main.cb6dcb6b.js.map",
+    "main.f2010cd1.css.map": "/react-app-portfolio/static/css/main.f2010cd1.css.map",
+    "main.fb0126f8.js.map": "/react-app-portfolio/static/js/main.fb0126f8.js.map",
     "787.486a7e1f.chunk.js.map": "/react-app-portfolio/static/js/787.486a7e1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.666dbd63.css",
-    "static/js/main.cb6dcb6b.js"
+    "static/css/main.f2010cd1.css",
+    "static/js/main.fb0126f8.js"
   ]
 }
