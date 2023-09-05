@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-app-portfolio/static/css/main.5b49392a.css",
-    "main.js": "/react-app-portfolio/static/js/main.7ebabdca.js",
+    "main.css": "/react-app-portfolio/static/css/main.e78184ee.css",
+    "main.js": "/react-app-portfolio/static/js/main.1ae47682.js",
     "static/js/787.486a7e1f.chunk.js": "/react-app-portfolio/static/js/787.486a7e1f.chunk.js",
     "static/media/ChapterChatter.jpg": "/react-app-portfolio/static/media/ChapterChatter.61900d2e71440540ca1b.jpg",
     "static/media/week1.jpg": "/react-app-portfolio/static/media/week1.7fe62aa0b88b49d0cd5f.jpg",
@@ -10,14 +10,13 @@
     "static/media/Scheduler.jpg": "/react-app-portfolio/static/media/Scheduler.7c955535617618092ea7.jpg",
     "static/media/Note-Taker.jpg": "/react-app-portfolio/static/media/Note-Taker.de3b742f2a65b367a0df.jpg",
     "static/media/Jate.jpg": "/react-app-portfolio/static/media/Jate.e1c0563cc16f9e90208e.jpg",
-    "static/media/logo.svg": "/react-app-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-app-portfolio/index.html",
-    "main.5b49392a.css.map": "/react-app-portfolio/static/css/main.5b49392a.css.map",
-    "main.7ebabdca.js.map": "/react-app-portfolio/static/js/main.7ebabdca.js.map",
+    "main.e78184ee.css.map": "/react-app-portfolio/static/css/main.e78184ee.css.map",
+    "main.1ae47682.js.map": "/react-app-portfolio/static/js/main.1ae47682.js.map",
     "787.486a7e1f.chunk.js.map": "/react-app-portfolio/static/js/787.486a7e1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b49392a.css",
-    "static/js/main.7ebabdca.js"
+    "static/css/main.e78184ee.css",
+    "static/js/main.1ae47682.js"
   ]
 }
