@@ -1,22 +1,63 @@
-import React from 'react';
+import React, { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.css';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-export default function Contact() {
-  return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
-  );
+function Contact() {
+    const formData = { userName: "", userEmail: "", userMessage: "" };
+    const [data, setData] = useState(formData);
+    const handleInputChange = (e) => {
+        const { id, value } = e.target;
+        setData({ ...data, [id]: value });
+    };
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+        alert(`Message Sent!`);
+        setData(formData);
+    };
+    return (
+        <Row>
+            <Col sm={9}>
+                <form style={{paddingBottom:"22%"}} onSubmit={handleFormSubmit}>
+                    <div className="form-group">
+                        <label htmlFor="exampleFormControlInput1">Name</label>
+                        <input
+                            type="text"
+                            className="form-control"
+                            id="userName"
+                            placeholder="Enter Name Here"
+                            value={data.userName}
+                            onChange={handleInputChange}
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="exampleFormControlInput1">Email address</label>
+                        <input
+                            type="email"
+                            className="form-control"
+                            id="userEmail"
+                            placeholder="Enter Email Here"
+                            value={data.userEmail}
+                            onChange={handleInputChange}
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="exampleFormControlInput1">Message</label>
+                        <textarea
+                            className="form-control"
+                            id="userMessage"
+                            rows="3"
+                            placeholder="Enter Message Here"
+                            onChange={handleInputChange}
+                            value={data.userMessage}
+                        ></textarea>
+                    </div>
+                    <button type="submit" className="btn btn-primary mb-2">
+                        Send
+                    </button>
+                </form>
+            </Col>
+        </Row>
+    )
 }
+export default Contact;

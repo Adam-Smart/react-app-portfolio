@@ -48,7 +48,7 @@ section{
 }
 div{
   background-color: #5E34C1;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   color : #fff;
   font-size: 25px;
 }
