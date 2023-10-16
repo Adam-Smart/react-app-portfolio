@@ -14,7 +14,8 @@ export default function Portfolio() {
       <p>
      My Previous work:
       </p>
-      
+
+      <article style={{display:"flex", flexWrap:"wrap", justifyContent:"space-around"}}>
       <section className='portfolio'>
         <h2>Horiseon</h2>
         <a href="https://adam-smart.github.io/week-1-code-refactor-challenge/"><img src={week1}></img></a>
@@ -50,6 +51,8 @@ export default function Portfolio() {
         <a href="https://adam-smart.github.io/week-5-work-day-scheduler/"><img src={Scheduler}></img></a>
         <a href="https://github.com/Adam-Smart/week-5-work-day-scheduler">Repositiory</a>
       </section>
+      
+      </article>
 
       
       
