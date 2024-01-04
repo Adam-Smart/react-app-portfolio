@@ -5,7 +5,7 @@ import PortfolioContainer from "./components/PortfolioContainer";
 function App() {
     return (
       <div className="App">
-        <header className="App-header">Adam Smart's Portfolio</header>
+        <header className="App-header"></header>
         <PortfolioContainer />
         <footer>
           <p><a href ="https://github.com/Adam-Smart">Github</a></p>

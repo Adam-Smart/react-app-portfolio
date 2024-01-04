@@ -10,6 +10,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+section{
+ max-width: fit-content;
+ max-height: fit-content;
+ margin: 10px 20px;
+ vertical-align: middle;
+}
 .profile{
   border-radius: 100%;
   width: 500px;
@@ -23,8 +30,16 @@ code {
   justify-content: space-evenly;
   height: auto;
 }
-img.profile{
-  border: white 10px solid;
+
+
+
+/* Images of projects */
+img{
+  width: 100%;
+  height:auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
 }
 .portfolio{
   width: 45%;
@@ -35,27 +50,64 @@ img.profile{
   color: black;
 }
 
-img{
-  width: 100%;
-  height:auto;
-  flex-wrap: wrap;
-  justify-content: center;
-  display: flex;
-}
-section{
- max-width: fit-content;
- max-height: fit-content;
- margin: 10px 20px;
-}
+
 div{
-  background-color: #5E34C1;
+  background-color: #F3F3F3;
   /* min-height: 100vh; */
-  color : #fff;
+  color : #595959;
   font-size: 25px;
 }
+
 .nav{
-  background: linear-gradient(312deg, rgba(153,0,228,0.7231267507002801) 0%, rgba(92,71,214,0.7567401960784313) 52%, rgba(0,245,255,0.6811099439775911) 100%);
+  background-color: #A2C4C9;
+  height:30%; ;
 }
+
+  .App {
+    text-align: center;
+  }
+  
+  .App-header {
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #A2C4C9 
+  }
+  .App-footer{
+    color: white
+  }
+  
+  footer{
+    position: relative;
+    background-color: #A2C4C9;
+    width: 100%;
+    bottom: 0;
+    min-height: 80px;
+    font-size: 30px;
+  }
+  footer a {
+    color: white;
+  }
+  footer a:hover{
+    color: orange;
+  }
+  
+  a.nav-link{
+    color: #595959;
+    background-color: white;
+    margin-left: 2px;
+  }
+  a.nav-link:hover{
+    background-color: rgb(113, 175, 194);
+    color: white;
+  }
+  li{
+    list-style-type: none;
+  }
+
+
 @media only screen and (max-width: 767px) {
   .portfolio{
     width: 95%;

@@ -1,8 +1,8 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-.App-header {
+/* .App-header {
   min-height: 5vh;
   display: flex;
   flex-direction: column;
@@ -12,16 +12,16 @@
   color: white;
   background: rgb(153,0,228);
 background: linear-gradient(312deg, rgba(153,0,228,0.7231267507002801) 0%, rgba(92,71,214,0.7567401960784313) 52%, rgba(0,245,255,0.6811099439775911) 100%);
-}
-.App-footer{
+} */
+/* .App-footer{
   color: white
 }
 
 footer{
   position: relative;
+  background-color: #A2C4C9;
   width: 100%;
   bottom: 0;
-  background: linear-gradient(312deg, rgba(153,0,228,0.7231267507002801) 0%, rgba(92,71,214,0.7567401960784313) 52%, rgba(0,245,255,0.6811099439775911) 100%);
   min-height: 80px ;
   border-top: 1px solid white;
   font-size: 30px;
@@ -34,10 +34,14 @@ footer a:hover{
 }
 
 a.nav-link{
-  color: black;
-  background-color: orange;
+  color: #595959;
+  background-color: white;
   margin-left: 2px;
+}
+a.nav-link:hover{
+  background-color: rgb(113, 175, 194);
+  color: white;
 }
 li{
   list-style-type: none;
-}
+} */
