@@ -6,10 +6,14 @@ import CV from "../../Files/Resume.pdf"
 
 export default function AboutMe() {
   return (
+    
+    
     <div>
       <h1>About Me Page</h1>
       
-      <div className='name'>
+        <section className='container'>
+
+<div className='name'>
       <p>Hey I'm Adam Smart  </p>
       <a href={CV} download={CV}>
         Resume
@@ -17,9 +21,9 @@ export default function AboutMe() {
       <p>Click to Download</p>
     </div>
 
-      <section className='container'>
+    
 
-        <img className = "profile" src={Me} alt="Adam Smart"></img>
+        <img className = "profile-img" src={Me} alt="Adam Smart"></img>
 
       <p className='info'> 
       Hello my name is Adam Smart. I am 24 years old I am currently learning how to code but have preiviously studied business studies, media studies, IT, and applied science in sixthform. 

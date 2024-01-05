@@ -19,12 +19,13 @@ code {
  display: flex;
  justify-content: flex-end;
 }
-.profile{
+.profile-img{
   border-radius: 100%;
   max-width: 500px;
+  margin-right: 20px;
   margin-bottom: 25px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 100%;
+  align-self: center;
 }
 .container p{
  align-self: center;
@@ -48,6 +49,9 @@ code {
   border-color: #595959;
   margin-top: 150px;
 }
+.info{
+  float: right;
+}
 
 /* Images of projects */
 img{
@@ -69,7 +73,6 @@ img{
 
 div{
   background-color: #F3F3F3;
-  /* min-height: 100vh; */
   color : #595959;
   font-size: 25px;
 }
@@ -96,11 +99,10 @@ div{
   }
   
   footer{
-    position: relative;
+    display: block;
     background-color: #A2C4C9;
     width: 100%;
-    bottom: 0;
-    min-height: 80px;
+    min-height: auto;
     font-size: 30px;
   }
   footer a {
@@ -124,9 +126,12 @@ div{
   }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1400px) {
   .portfolio{
     width: 95%;
   }
-  
+  .container{
+    display: block;}
+    
+  .name a{margin: 0;}
 }
