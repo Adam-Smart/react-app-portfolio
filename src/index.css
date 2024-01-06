@@ -88,30 +88,19 @@ div{
   
   .App-header {
     min-height: 5vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    background: #A2C4C9 
-  }
-  .App-footer{
-    color: white
+    background: #A2C4C9;
+    
+    
   }
   
   footer{
     display: block;
     background-color: #A2C4C9;
     width: 100%;
-    min-height: auto;
     font-size: 30px;
   }
-  footer a {
-    color: white;
-  }
-  footer a:hover{
-    color: orange;
-  }
- 
+
   a.nav-link{
     color: #595959;
     background-color: none;
@@ -125,7 +114,19 @@ div{
   li{
     list-style-type: none;
   }
+  
+.custom-class{
+  margin: 5px;
 
+}
+.custom-class .social-svg-icon {
+  fill: green;
+  width: 50px;
+}
+.custom-class:hover .social-svg-icon {
+  opacity: 20%;
+  color: rgb(255, 255, 255);
+}
 
 @media only screen and (max-width: 1400px) {
   .portfolio{
