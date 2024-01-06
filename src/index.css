@@ -111,11 +111,12 @@ div{
   footer a:hover{
     color: orange;
   }
-  
+ 
   a.nav-link{
     color: #595959;
-    background-color: white;
-    margin-left: 2px;
+    background-color: none;
+    margin-left: 5px;
+  
   }
   a.nav-link:hover{
     background-color: rgb(113, 175, 194);
