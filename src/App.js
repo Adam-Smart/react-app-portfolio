@@ -3,6 +3,9 @@ import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 import { SocialIcon } from 'react-social-icons'
 
+
+
+
 function App() {
     return (
       <div className="App">
@@ -11,7 +14,7 @@ function App() {
         <PortfolioContainer />
         <body></body>
 
-        <footer className='footer-pin'>
+        <footer>
           <SocialIcon className="custom-class" target="_blank" url="https://www.linkedin.com/in/adam-smart-4ab57025a" />
           <SocialIcon className="custom-class" target="_blank" url="https://github.com/Adam-Smart" />
           <SocialIcon className="custom-class" target="_blank" url="https://x.com/Adam_Smart_98" />

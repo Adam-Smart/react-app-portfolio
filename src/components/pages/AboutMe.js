@@ -15,6 +15,7 @@ export default function AboutMe() {
 
 <div className='name'>
       <p>Hey I'm Adam Smart  </p>
+      <img className = "profile-phone" src={Me} alt="Adam Smart"></img>
       <a href={CV} download={CV}>
         Resume
       </a>
