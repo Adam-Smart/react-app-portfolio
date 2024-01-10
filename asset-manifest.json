@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-app-portfolio/static/css/main.7f500e3c.css",
-    "main.js": "/react-app-portfolio/static/js/main.0b326739.js",
+    "main.css": "/react-app-portfolio/static/css/main.79f4ec17.css",
+    "main.js": "/react-app-portfolio/static/js/main.443ef851.js",
     "static/js/787.486a7e1f.chunk.js": "/react-app-portfolio/static/js/787.486a7e1f.chunk.js",
     "static/media/ChapterChatter.jpg": "/react-app-portfolio/static/media/ChapterChatter.61900d2e71440540ca1b.jpg",
     "static/media/week1.jpg": "/react-app-portfolio/static/media/week1.7fe62aa0b88b49d0cd5f.jpg",
@@ -12,12 +12,12 @@
     "static/media/Resume.pdf": "/react-app-portfolio/static/media/Resume.a439ef9875c46dfb4caa.pdf",
     "static/media/Jate.jpg": "/react-app-portfolio/static/media/Jate.e1c0563cc16f9e90208e.jpg",
     "index.html": "/react-app-portfolio/index.html",
-    "main.7f500e3c.css.map": "/react-app-portfolio/static/css/main.7f500e3c.css.map",
-    "main.0b326739.js.map": "/react-app-portfolio/static/js/main.0b326739.js.map",
+    "main.79f4ec17.css.map": "/react-app-portfolio/static/css/main.79f4ec17.css.map",
+    "main.443ef851.js.map": "/react-app-portfolio/static/js/main.443ef851.js.map",
     "787.486a7e1f.chunk.js.map": "/react-app-portfolio/static/js/787.486a7e1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f500e3c.css",
-    "static/js/main.0b326739.js"
+    "static/css/main.79f4ec17.css",
+    "static/js/main.443ef851.js"
   ]
 }
